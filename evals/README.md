@@ -35,17 +35,20 @@ The [skill-creator](https://github.com/anthropics/skills) skill automates the wi
 
 ## Results
 
-Last full model run: v2.1 against the v1 baseline, scenarios 1 to 4, one run each.
+Last full model run: v3.0.0 against the v1 baseline, all six scenarios, one run each (2026-10-23).
 
-| | v2.1 | v1 baseline |
+| | v3.0 | v1 baseline |
 |---|---|---|
-| Expectations passed | **36 / 36** | 33 / 36 |
-| Report length | 125–245 words | 238–636 words |
-| Mean time per run | 71 s | 81 s |
-| Mean tokens per run | ~70k | ~65k |
+| Expectations passed (model-graded) | **47 / 47** | 41 / 47 |
+| Script checks passed (`grade.py`) | **74 / 74** | 62 / 74 |
+| Report length | 136–249 words | 268–654 words |
+| Mean time per run | 57 s | 56 s |
+| Mean tokens per run | ~53k | ~45k |
 
-v1's misses: claim details (item and dollar amounts) in a lock-screen report, and two reports over the word limit.
+v1's misses: claim details (item and dollar amount) in a lock-screen report; "Update" instead of ALERT for a forged callback email and for a prompt-injection email; no "partial check" status; no search queries when mail was unavailable; never telling the user that hidden AI instructions were ignored; every report over the word limit.
+
+Both versions classify phishing, extortion and genuine notices correctly, so those expectations don't discriminate. In two v3 runs, `validate_state.py` caught a first draft over 250 words and the agent trimmed it.
+
+Earlier run, v2.1 against v1 on scenarios 1 to 4: 36/36 vs. 33/36.
 
 Triggering (v2.1 description): fired on about 3 of 9 clear requests with no false triggers on 10 near misses. Name the skill explicitly in scheduled tasks.
-
-**Not yet re-run on v3.0:** scenarios 5 and 6 are new, and v3.0's merged changes have been checked by `tests/` and `grade.py` only, not by a full model run.

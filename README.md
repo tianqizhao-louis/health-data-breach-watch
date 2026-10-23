@@ -135,7 +135,7 @@ make check      # Agent Skills format check
 make package    # dist/health-breach-watch.zip
 ```
 
-**Evaluation:** v2.1 passed 36/36 expectations against 33/36 for the original skill, with much shorter reports (125–245 words vs. up to 636). See [`evals/`](evals) for scenarios, results and what hasn't been re-run yet. To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md); to report a safety bypass, see [SECURITY.md](SECURITY.md).
+**Evaluation:** across six scenarios, v3 passed 47/47 expectations against 41/47 for the original skill, with much shorter reports (136–249 words vs. up to 654). See [`evals/`](evals) for scenarios and results. To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md); to report a safety bypass, see [SECURITY.md](SECURITY.md).
 
 ## Disclaimer
 
