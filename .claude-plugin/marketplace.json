@@ -1,0 +1,19 @@
+{
+  "name": "health-data-breach-watch",
+  "owner": {
+    "name": "Louis Zhao"
+  },
+  "metadata": {
+    "description": "A read-only AI watcher for healthcare data breaches.",
+    "version": "3.0.0"
+  },
+  "plugins": [
+    {
+      "name": "health-breach-watch",
+      "description": "Watch a healthcare data breach: check official disclosures, sort breach-related email into genuine, unverified, suspicious or routine, flag unfamiliar insurance claims, and report only what changed.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/health-breach-watch"]
+    }
+  ]
+}

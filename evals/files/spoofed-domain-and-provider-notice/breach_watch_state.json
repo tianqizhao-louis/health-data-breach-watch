@@ -1,0 +1,17 @@
+{
+  "schema_version": 3,
+  "last_run": "2026-11-24T08:00:00-05:00",
+  "confirmed_company_domains": ["questdiagnostics.com"],
+  "confirmed_notice_senders": ["krollmonitoring.com", "enroll.krollmonitoring.com", "1-888-555-0142"],
+  "official_facts": [
+    {"date": "2026-11-18", "source": "SEC 8-K/A", "fact": "About 1.9M individuals; SSNs for about 40K; letters mailed from Nov 17 by Kroll; call center 1-888-555-0142"},
+    {"date": "2026-11-19", "source": "California AG", "fact": "Sample letter on Kroll letterhead"}
+  ],
+  "sources_unreachable": [],
+  "emails_seen": [],
+  "eob_claims_flagged": [],
+  "notice_received": false,
+  "deadline_note_given": false,
+  "known_providers": [],
+  "user_actions_done": ["credit_freezes", "irs_ip_pin"]
+}

@@ -1,0 +1,44 @@
+# ── Personal data: never commit ──────────────────────────────
+# Real watch state, reports and mail exports hold details about you.
+breach_watch_state.json
+!evals/files/**/breach_watch_state.json
+report.md
+report.txt
+*.eml
+*.mbox
+inbox*.json
+!evals/files/**/inbox.json
+.env
+.env.*
+
+# ── Build output ─────────────────────────────────────────────
+dist/
+*.zip
+*.skill
+
+# ── Eval runs (regenerate them; fixtures live in evals/files) ─
+evals/runs/
+*-workspace/
+eval-review*.html
+feedback.json
+benchmark.json
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ── Editors and OS ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ── Local agent settings ─────────────────────────────────────
+.claude/settings.local.json

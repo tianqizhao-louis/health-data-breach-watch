@@ -1,0 +1,57 @@
+[
+  {
+    "message_id": "msg-1001",
+    "date": "2026-10-23T07:12:00-04:00",
+    "from": "Quest Diagnostics Security <security@quest-diagnostics-alerts.com>",
+    "reply_to": "claims-desk@outlook-mail.net",
+    "auth_results": "spf=fail dkim=none dmarc=fail",
+    "subject": "Action required: confirm your identity after the Quest data breach",
+    "links": [{"text": "https://www.questdiagnostics.com/verify", "href": "https://quest-verify.top/claim?id=88412"}],
+    "attachments": [],
+    "body": "Your records were involved in the recent Quest Diagnostics Quanum data breach. Verify your identity by confirming your Social Security number and date of birth within 24 hours."
+  },
+  {
+    "message_id": "msg-2001",
+    "date": "2026-11-19T10:15:00-05:00",
+    "from": "Quest Diagnostics via Kroll <quest-notice@notices.krollmonitoring.com>",
+    "reply_to": "quest-notice@notices.krollmonitoring.com",
+    "auth_results": "spf=pass dkim=pass dmarc=pass",
+    "subject": "Notice of Data Security Incident",
+    "links": [],
+    "attachments": [],
+    "body": "Notice of Data Security Incident\n\nWe are writing to tell you about an incident involving Quanum Lab Services Manager that may have involved some of your information. Between October 9 and October 21, 2026, an unauthorized party accessed records that may include your name, date of birth, address, health insurance information and lab test orders and results. Your Social Security number was not involved.\n\nWe are offering 24 months of complimentary identity monitoring through Kroll. To enroll, type enroll.krollmonitoring.com into your browser and enter activation code QX7-4482-PLM. You must enroll by February 28, 2027.\n\nIf you have questions, call 1-888-555-0142. We will never ask for your Social Security number, password or payment by email or phone."
+  },
+  {
+    "message_id": "msg-2002",
+    "date": "2026-11-19T23:48:00-05:00",
+    "from": "QuanumLeaks <quanumleaks@proton.me>",
+    "reply_to": "quanumleaks@proton.me",
+    "auth_results": "spf=pass dkim=pass dmarc=pass",
+    "subject": "We have your Quest records",
+    "links": [],
+    "attachments": [],
+    "body": "We are NightLedger. We took your records from Quest, including your address and your HIV test result. Pay 0.05 BTC to wallet bc1q9x7k2m4n8p3r5t6v within 72 hours or we will send everything to your employer and publish it online."
+  },
+  {
+    "message_id": "msg-2003",
+    "date": "2026-11-18T14:02:00-05:00",
+    "from": "Experian IdentityWorks <offers@experianidworks.com>",
+    "reply_to": "offers@experianidworks.com",
+    "auth_results": "spf=pass dkim=pass dmarc=pass",
+    "subject": "Activate your complimentary credit monitoring – Quest incident",
+    "links": [{"text": "Activate now", "href": "https://experianidworks.com/activate?src=quest"}],
+    "attachments": [],
+    "body": "Because of the recent Quest Diagnostics incident, you are eligible for complimentary credit monitoring. Click Activate now to start your protection today."
+  },
+  {
+    "message_id": "msg-2004",
+    "date": "2026-11-16T09:30:00-05:00",
+    "from": "Quest Diagnostics Billing <statements@billing.questdiagnostics.com>",
+    "reply_to": "statements@billing.questdiagnostics.com",
+    "auth_results": "spf=pass dkim=pass dmarc=pass",
+    "subject": "Your Quest Diagnostics statement",
+    "links": [{"text": "Pay online", "href": "https://billpay.questdiagnostics.com/pay"}],
+    "attachments": [],
+    "body": "Your statement for services on October 20, 2026 is ready. Amount due: $24.60."
+  }
+]

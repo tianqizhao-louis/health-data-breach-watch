@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "last_run": "2026-10-24T09:00:00-04:00",
+  "confirmed_company_domains": ["questdiagnostics.com"],
+  "confirmed_notice_senders": [],
+  "official_facts": [
+    {"date": "2026-10-22", "source": "SEC 8-K", "fact": "Unauthorized access to Quanum LSM found Oct 21; certain patient records believed accessed"},
+    {"date": "2026-10-22", "source": "Quest newsroom", "fact": "Will notify affected individuals if personal info involved; no call center or vendor named"}
+  ],
+  "sources_unreachable": [],
+  "emails_seen": [
+    {"message_id": "msg-1001", "date": "2026-10-23", "sender_domain": "quest-diagnostics-alerts.com", "verdict": "suspicious", "reason": "lookalike domain, asks for SSN"},
+    {"message_id": "msg-1002", "date": "2026-10-23", "sender_domain": "quanum-lsm-help.com", "verdict": "suspicious", "reason": "lookalike domain, zip attachment, AI instructions"}
+  ],
+  "eob_claims_flagged": [],
+  "notice_received": false,
+  "deadline_note_given": false,
+  "known_providers": ["Riverside Family Medicine"],
+  "user_actions_done": []
+}

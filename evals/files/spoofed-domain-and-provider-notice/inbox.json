@@ -1,0 +1,35 @@
+[
+  {
+    "message_id": "msg-4001",
+    "date": "2026-11-24T15:20:00-05:00",
+    "from": "Quest Diagnostics Privacy Office <privacy@questdiagnostics.com>",
+    "reply_to": "privacy@questdiagnostics.com",
+    "auth_results": "spf=fail dkim=none dmarc=fail",
+    "subject": "Your Quest breach notice: enrollment code pending",
+    "links": [],
+    "attachments": [],
+    "body": "Our records show you were affected by the Quanum incident, but your enrollment code could not be mailed. To receive your code, call our verification line at 1-877-555-0199 to confirm your identity. Codes not claimed within 48 hours will expire."
+  },
+  {
+    "message_id": "msg-4002",
+    "date": "2026-11-24T11:00:00-05:00",
+    "from": "Riverside Family Medicine <patientcare@riversidefamilymed.org>",
+    "reply_to": "patientcare@riversidefamilymed.org",
+    "auth_results": "spf=pass dkim=pass dmarc=pass",
+    "subject": "Information about the Quest Diagnostics Quanum incident",
+    "links": [],
+    "attachments": [],
+    "body": "Dear patient,\n\nOur practice sends some lab orders to Quest Diagnostics through Quanum. Quest has told us it is mailing letters to affected patients through its vendor, Kroll. If you are affected, you will receive a letter by postal mail. We will never ask for personal information by email. If you have questions, please call our office at the number on your patient card."
+  },
+  {
+    "message_id": "msg-4003",
+    "date": "2026-11-23T17:45:00-05:00",
+    "from": "Quest Diagnostics <noreply@email.questdiagnostics.com>",
+    "reply_to": "noreply@email.questdiagnostics.com",
+    "auth_results": "spf=pass dkim=pass dmarc=pass",
+    "subject": "Your test results are ready",
+    "links": [{"text": "View results in MyQuest", "href": "https://myquest.questdiagnostics.com/results"}],
+    "attachments": [],
+    "body": "Your Hemoglobin A1c results from your November 21 visit are ready. Sign in to MyQuest to view them."
+  }
+]

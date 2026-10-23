@@ -1,0 +1,24 @@
+[
+  {
+    "message_id": "msg-3001",
+    "date": "2026-12-18T09:00:00-05:00",
+    "from": "Quest Diagnostics <appointments@questdiagnostics.com>",
+    "reply_to": "appointments@questdiagnostics.com",
+    "auth_results": "spf=pass dkim=pass dmarc=pass",
+    "subject": "Appointment reminder",
+    "links": [{"text": "Manage appointment", "href": "https://appointment.questdiagnostics.com/manage"}],
+    "attachments": [],
+    "body": "This is a reminder of your appointment at a Quest patient service center on December 23 at 7:45 AM. Please fast for 10 hours beforehand."
+  },
+  {
+    "message_id": "msg-3002",
+    "date": "2026-12-20T10:00:00-05:00",
+    "from": "Quest Diagnostics <news@email.questdiagnostics.com>",
+    "reply_to": "news@email.questdiagnostics.com",
+    "auth_results": "spf=pass dkim=pass dmarc=pass",
+    "subject": "5 tips for a healthier holiday season",
+    "links": [{"text": "Read more", "href": "https://www.questdiagnostics.com/blog/holiday-health"}],
+    "attachments": [],
+    "body": "From managing stress to staying active, here are five ways to stay healthy this holiday season."
+  }
+]

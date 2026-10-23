@@ -1,0 +1,122 @@
+[
+  {
+    "query": "Run my morning Quest Diagnostics breach check. Check if any new SEC filings or HHS OCR updates dropped overnight and scan my Gmail for any breach notices or weird emails.",
+    "should_trigger": true,
+    "split": "train"
+  },
+  {
+    "query": "hey i just got an email in Superhuman from 'Kroll Identity Monitoring' with an activation code saying my lab records from a recent October clinical system incident were affected. is this legit or a scam?",
+    "should_trigger": true,
+    "split": "train"
+  },
+  {
+    "query": "My Aetna Explanation of Benefits email just came in and there's a $1,400 claim from an out-of-state molecular diagnostics lab in Florida from last week that I definitely never visited. My doctor uses Quest Quanum. Can you check my inbox and see if this is related?",
+    "should_trigger": true,
+    "split": "train"
+  },
+  {
+    "query": "Someone just emailed my personal gmail claiming they downloaded my Quest blood test results from the Quanum hack and want $800 in bitcoin within 24 hours or they'll email my employer. Check the email and tell me what to do!",
+    "should_trigger": true,
+    "split": "train"
+  },
+  {
+    "query": "I finished freezing my credit at Equifax, Experian, and TransUnion and set up my IRS IP PIN. Log that in my breach watch and check if anything new happened with Quest today.",
+    "should_trigger": true,
+    "split": "train"
+  },
+  {
+    "query": "Can we set up a daily watch for the Change Healthcare pharmacy claims breach to check my inbox for official monitoring letters and flag fake phishing emails?",
+    "should_trigger": true,
+    "split": "train"
+  },
+  {
+    "query": "any news on that quest thing? did they say how many people yet",
+    "should_trigger": true,
+    "split": "train"
+  },
+  {
+    "query": "I have an unread email from support@myquest-verify-portal.com asking me to confirm my SSN and insurance member ID to see if my lab orders were part of the October 21 incident. Can you inspect my inbox?",
+    "should_trigger": true,
+    "split": "validation"
+  },
+  {
+    "query": "It's been almost 60 days since Quest discovered the Quanum LSM unauthorized access and I still haven't received a notification letter in the mail or email. Check the state AG lists and HHS portal for me.",
+    "should_trigger": true,
+    "split": "validation"
+  },
+  {
+    "query": "[Scheduled 08:00] Check Quest Quanum disclosures and scan the user's inbox since last_run in breach_watch_state.json; alert only on changes.",
+    "should_trigger": true,
+    "split": "validation"
+  },
+  {
+    "query": "My primary care clinic said they use Quanum to order my labs. Can you check the latest official Quest disclosures and my recent Quest emails to see what's actually affected?",
+    "should_trigger": true,
+    "split": "validation"
+  },
+  {
+    "query": "someone called saying they're from Quest about the leak and wanted to verify my date of birth. was that real?",
+    "should_trigger": true,
+    "split": "validation"
+  },
+  {
+    "query": "I just downloaded my Quest Diagnostics lipid panel PDF from MyQuest. My LDL cholesterol is 142 mg/dL and triglycerides are 185 mg/dL. What do these lab results mean?",
+    "should_trigger": false,
+    "split": "train"
+  },
+  {
+    "query": "We are building a Node.js Express backend for our clinic's patient portal. Write HIPAA-compliant audit logging middleware and a data breach notification SOP for our engineering team.",
+    "should_trigger": false,
+    "split": "train"
+  },
+  {
+    "query": "Pull Quest Diagnostics (CIK 0001022079, ticker DGX) Q3 2026 Form 10-Q from SEC EDGAR and calculate their year-over-year operating margin.",
+    "should_trigger": false,
+    "split": "train"
+  },
+  {
+    "query": "How do I configure keyboard shortcuts and auto-reminders in Superhuman to reach Inbox Zero for my sales pipeline emails?",
+    "should_trigger": false,
+    "split": "train"
+  },
+  {
+    "query": "Review src/auth/login.ts and src/api/patients.ts in our repository for SQL injection, broken access control, and potential data breach vulnerabilities.",
+    "should_trigger": false,
+    "split": "train"
+  },
+  {
+    "query": "Find the nearest Quest Diagnostics patient service center in Secaucus, NJ that has Saturday morning hours for a fasting blood draw.",
+    "should_trigger": false,
+    "split": "train"
+  },
+  {
+    "query": "Can you help me calculate how much of my $3,000 annual family deductible is left based on these three routine physical therapy EOBs from BlueCross?",
+    "should_trigger": false,
+    "split": "validation"
+  },
+  {
+    "query": "Someone used my Chase Sapphire credit card at a gas station in Miami for $95. How do I dispute a credit card charge?",
+    "should_trigger": false,
+    "split": "validation"
+  },
+  {
+    "query": "Write a Python script to parse HL7 v2 ORU_R01 lab result messages from Quest Quanum into FHIR DiagnosticReport JSON objects.",
+    "should_trigger": false,
+    "split": "validation"
+  },
+  {
+    "query": "Write a CLI tool in Go that queries the HaveIBeenPwned k-anonymity range API to check if a password hash appears in public breach dumps.",
+    "should_trigger": false,
+    "split": "validation"
+  },
+  {
+    "query": "We're on the comms team at a regional hospital. Draft the HIPAA breach notification letter we'll mail to affected patients.",
+    "should_trigger": false,
+    "split": "validation"
+  },
+  {
+    "query": "What's a good password manager, and should I turn on 2FA for my bank?",
+    "should_trigger": false,
+    "split": "validation"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "schema_version": 3,
+  "last_run": "2026-12-15T08:00:00-05:00",
+  "confirmed_company_domains": ["questdiagnostics.com"],
+  "confirmed_notice_senders": ["krollmonitoring.com", "enroll.krollmonitoring.com", "1-888-555-0142"],
+  "official_facts": [
+    {"date": "2026-10-22", "source": "SEC 8-K", "fact": "Unauthorized access to Quanum LSM found Oct 21"},
+    {"date": "2026-11-18", "source": "SEC 8-K/A", "fact": "About 1.9M individuals; SSNs for about 40K; letters mailed from Nov 17; Kroll monitoring; call center 1-888-555-0142"},
+    {"date": "2026-11-19", "source": "California AG", "fact": "Entry posted with Kroll sample letter"},
+    {"date": "2026-11-30", "source": "Maine AG", "fact": "Entry posted: 1,912,400 total affected"},
+    {"date": "2026-12-10", "source": "HHS OCR portal", "fact": "Quest Diagnostics entry: 1,912,400 individuals, hacking/IT incident, network server"}
+  ],
+  "sources_unreachable": [],
+  "emails_seen": [
+    {"message_id": "msg-1001", "date": "2026-10-23", "sender_domain": "quest-diagnostics-alerts.com", "verdict": "suspicious", "reason": "lookalike domain, asks for SSN"}
+  ],
+  "eob_claims_flagged": [],
+  "notice_received": false,
+  "deadline_note_given": false,
+  "known_providers": ["Riverside Family Medicine"],
+  "user_actions_done": ["credit_freezes", "irs_ip_pin", "review_eobs", "portal_password_2fa"]
+}
